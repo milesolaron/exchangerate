@@ -1,0 +1,67 @@
+
+#title {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #54808c, #73b4bc);
+    padding: 20px;
+}
+
+#description {
+    color: #73b4bc;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#img-container {
+    text-align: center;
+}
+
+label {
+    color: #54808c;
+    font-weight: bold;
+}
+
+.form-label {
+    text-align: center;
+    display: block;
+}
+
+input[type="text"],
+input[type="number"],
+select.form-select {
+    background-color: #73b4bc;
+    color: #1a1a27;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#submit-btn {
+    background-color: #f68539;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 300px;
+    font-weight: bold;
+}
+
+#submit-btn:hover {
+    background-color: #ae5c26;
+    transition: 0.4s;
+}
+
+#conversion-result {
+    background-color: #fac03b;
+    color: #1a1a27;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#btn-container {
+    margin: 30px;
+}
